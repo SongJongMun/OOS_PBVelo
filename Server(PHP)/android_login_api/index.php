@@ -72,7 +72,7 @@ if (isset($_POST['tag']) && $_POST['tag'] != '') {
             } else {
                 // user failed to store
                 $response["error"] = TRUE;
-                $response["error_msg"] = "Error occured in Registartion";
+                $response["error_msg"] = "Error occurred in Registartion";
                 echo json_encode($response);
             }
         }
